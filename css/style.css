@@ -37,8 +37,16 @@
     height: 25px;
 }
 
+.custom-w-200px {
+    width: 200px;
+}
+
 .custom-text-white {
     color: white;
+}
+
+.custom-bg-red-button {
+    background-color: #cd3d0f;
 }
 
 .custom-bg-color-black {
@@ -65,9 +73,7 @@
     background-color: blue;
 }
 
-.custom-bg-red {
-    background-color: red;
-}
+
 
 .custom-bg-yellow {
     background-color: yellow;
@@ -84,4 +90,8 @@
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
+}
+
+#returnal-title {
+    width: 50%;
 }
