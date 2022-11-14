@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.custom-align-center {
+    align-items: center;
+}
+
 .custom-h-600px {
     height: 600px;
 }
@@ -45,8 +49,24 @@
     color: white;
 }
 
+.custom-text-grey {
+    color: #7b7b7b;
+}
+
+.custom-text-blue {
+    color: #0876cf;
+}
+
 .custom-bg-red-button {
     background-color: #cd3d0f;
+}
+
+.custom-bg-blue-button {
+    background-color: #2d64e6;
+}
+
+.custom-bg-black {
+    background-color: #1f1f1f;
 }
 
 /* *********header selectors********* */
@@ -75,4 +95,26 @@
     width: 60%;
 }
 
-/* suggested-games section selectors */
+/* suggested-gam section selectors */
+
+.suggested-games {
+    padding-bottom: 6rem;
+}
+
+
+/* play-has-no-limits section selectors */
+.play-has-no-limits h1 {
+    font-size: 2.5rem;
+}
+
+/* it-takes-two section selectors */
+.it-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.it-takes-two h1 {
+    font-size: 2.5rem;
+}
