@@ -4,32 +4,36 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.h-300px {
+.custom-h-600px {
+    height: 600px;
+}
+
+.custom-h-300px {
     height: 300px;
 }
 
-.h-200px {
+.custom-h-200px {
     height: 200px;
 
 }
 
-.h-150px {
+.custom-h-150px {
     height: 150px;
 }
 
-.h-100px {
+.custom-h-100px {
     height: 100px;
 }
 
-.h-75px {
+.custom-h-75px {
     height: 75px;
 }
 
-.h-50px {
+.custom-h-50px {
     height: 50px;
 }
 
-.h-25px {
+.custom-h-25px {
     height: 25px;
 }
 
@@ -49,23 +53,23 @@
     background-color: #3a546d;
 }
 
-.bg-white {
+.custom-bg-white {
     background-color: white;
 }
 
-.bg-green {
+.custom-bg-green {
     background-color: green;
 }
 
-.bg-blue {
+.custom-bg-blue {
     background-color: blue;
 }
 
-.bg-red {
+.custom-bg-red {
     background-color: red;
 }
 
-.bg-yellow {
+.custom-bg-yellow {
     background-color: yellow;
 }
 
@@ -73,4 +77,11 @@
 
 #sony-logo {
     letter-spacing: 2px;
+}
+
+/* *********main selectors********* */
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
 }
