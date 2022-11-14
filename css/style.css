@@ -1,7 +1,7 @@
 
 /* general selectors */
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .custom-h-600px {
@@ -37,8 +37,8 @@
     height: 25px;
 }
 
-.custom-w-200px {
-    width: 200px;
+.custom-w-125px {
+    width: 125px;
 }
 
 .custom-text-white {
@@ -47,36 +47,6 @@
 
 .custom-bg-red-button {
     background-color: #cd3d0f;
-}
-
-.custom-bg-color-black {
-    background-color: black;
-}
-
-.custom-bg-color-acqua {
-    background-color: #1abc9c;
-}
-
-.custom-bg-color-grey {
-    background-color: #3a546d;
-}
-
-.custom-bg-white {
-    background-color: white;
-}
-
-.custom-bg-green {
-    background-color: green;
-}
-
-.custom-bg-blue {
-    background-color: blue;
-}
-
-
-
-.custom-bg-yellow {
-    background-color: yellow;
 }
 
 /* *********header selectors********* */
@@ -90,8 +60,15 @@
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-bottom: 3rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
 }
 
 #returnal-title {
-    width: 50%;
+    width: 60%;
 }
