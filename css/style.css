@@ -118,3 +118,17 @@
 .it-takes-two h1 {
     font-size: 2.5rem;
 }
+
+/* it-takes-two section selectors */
+.explore-ps4 h1 {
+    font-size: 2.5rem;
+    padding-top: 4rem;
+}
+
+.explore-ps4 h2 {
+    font-size: 2.2rem;
+}
+
+.explore-ps4 p {
+    font-size: 1.25rem;
+}
