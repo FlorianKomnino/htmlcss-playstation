@@ -65,6 +65,10 @@ h2 {
     width: 45%;
 }
 
+.custom-text-black {
+    color: black;
+}
+
 .custom-text-grey {
     color: #7b7b7b;
 }
@@ -111,12 +115,13 @@ header {
 header li {
     list-style-type: none;
     display: inline-block;
+    margin: 0.5rem;
+    font-size: 0.9rem;
 }
 
 header li a {
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
 }
 
 #sony-logo {
