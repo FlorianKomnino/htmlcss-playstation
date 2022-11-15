@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 .custom-align-center {
     align-items: center;
 }
@@ -43,6 +47,10 @@
 
 .custom-w-125px {
     width: 125px;
+}
+
+.custom-w-200px {
+    width: 200px;
 }
 
 .custom-text-white {
@@ -101,10 +109,6 @@ header {
     margin-top: 7rem;
 }
 
-.jumbotron h1 {
-    font-size: 2.5rem;
-}
-
 #returnal-title {
     width: 60%;
 }
@@ -115,12 +119,6 @@ header {
     padding-bottom: 6rem;
 }
 
-
-/* play-has-no-limits section selectors */
-.play-has-no-limits h1 {
-    font-size: 2.5rem;
-}
-
 /* it-takes-two section selectors */
 .it-takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -129,26 +127,15 @@ header {
     display: flex;
 }
 
-.it-takes-two h1 {
-    font-size: 2.5rem;
-}
-
 /* it-takes-two section selectors */
-.explore-ps4 h1 {
-    font-size: 2.5rem;
+.explore-ps4 h2 {
     padding-top: 4rem;
 }
 
-.explore-ps4 h2 {
+.explore-ps4 h3 {
     font-size: 2.2rem;
 }
 
 .explore-ps4 p {
     font-size: 1.25rem;
-}
-
-/* playstation-pluso section selectors */
-
-div.wrapper {
-    align-items: center;
 }
