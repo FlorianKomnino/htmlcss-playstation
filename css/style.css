@@ -192,7 +192,7 @@ footer ul a {
 
 /* *********media query selectors********* */
 @media screen and (min-width: 576px) {
-    section.new-releases a {
-        max-width: 125px;
+    section.follow-our-socials a {
+        max-width: 120px;
     }
 }
