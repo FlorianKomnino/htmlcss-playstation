@@ -54,19 +54,27 @@
 }
 
 .custom-text-blue {
-    color: #0876cf;
+    color: #2d64e6;
 }
 
-.custom-bg-red-button {
-    background-color: #cd3d0f;
+.custom-bg-black {
+    background-color: #1f1f1f;
+}
+
+.custom-bg-grey {
+    background-color: #bebcbb;
+}
+
+.custom-bg-grey-button {
+    background-color: #d9dadc;
 }
 
 .custom-bg-blue-button {
     background-color: #2d64e6;
 }
 
-.custom-bg-black {
-    background-color: #1f1f1f;
+.custom-bg-red-button {
+    background-color: #cd3d0f;
 }
 
 /* *********header selectors********* */
@@ -137,4 +145,10 @@ header {
 
 .explore-ps4 p {
     font-size: 1.25rem;
+}
+
+/* playstation-pluso section selectors */
+
+div.wrapper {
+    align-items: center;
 }
