@@ -49,8 +49,16 @@ h2 {
     width: 125px;
 }
 
+.custom-w-150px {
+    width: 150px;
+}
+
 .custom-w-200px {
     width: 200px;
+}
+
+.custom-w-225px {
+    width: 225px;
 }
 
 .custom-w-45 {
@@ -69,20 +77,24 @@ h2 {
     background-color: #1f1f1f;
 }
 
-.custom-bg-grey {
-    background-color: #bebcbb;
+.custom-bg-blue {
+    background-color: #2d64e6;
 }
 
 .custom-bg-dark-blue {
     background-color: #161c3b;
 }
 
-.custom-bg-grey-button {
-    background-color: #d9dadc;
+.custom-bg-footer-blue {
+    background-color: #00439c;
 }
 
-.custom-bg-blue-button {
-    background-color: #2d64e6;
+.custom-bg-grey {
+    background-color: #bebcbb;
+}
+
+.custom-bg-grey-button {
+    background-color: #d9dadc;
 }
 
 .custom-bg-red-button {
@@ -94,6 +106,17 @@ header {
     font-family: helvetica;
     position: fixed;
     top: 0;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
 }
 
 #sony-logo {
@@ -144,6 +167,25 @@ header {
     font-size: 1.25rem;
 }
 
+/* *********footer selectors********* */
+footer li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#copyright-infos {
+    font-size: 0.75rem;
+}
+
+
+
+/* *********media query selectors********* */
 @media screen and (min-width: 576px) {
     section.new-releases a {
         max-width: 125px;
