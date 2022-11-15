@@ -53,6 +53,10 @@ h2 {
     width: 200px;
 }
 
+.custom-w-45 {
+    width: 45%;
+}
+
 .custom-text-grey {
     color: #7b7b7b;
 }
@@ -138,4 +142,10 @@ header {
 
 .explore-ps4 p {
     font-size: 1.25rem;
+}
+
+@media screen and (min-width: 576px) {
+    section.new-releases a {
+        max-width: 125px;
+    }
 }
