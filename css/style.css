@@ -12,6 +12,10 @@ h2 {
     align-items: center;
 }
 
+.custom-justify-self-end {
+    justify-self: end;
+}
+
 .custom-h-600px {
     height: 600px;
 }
@@ -63,6 +67,10 @@ h2 {
 
 .custom-w-45 {
     width: 45%;
+}
+
+.custom-w-80vw {
+    width: 80vw;
 }
 
 .custom-text-black {
