@@ -126,6 +126,7 @@ header {
     font-family: helvetica;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 header li {
@@ -170,10 +171,17 @@ header li a {
     width: 60%;
 }
 
-/* suggested-gam section selectors */
+/* suggested-games section selectors */
 
 .suggested-games {
     padding-bottom: 6rem;
+}
+
+/* play-has-no-limits section selectors */
+#play-has-no-limits-products>* {
+    opacity: 0.7;
+    border-bottom: 2px solid transparent;
+
 }
 
 /* it-takes-two section selectors */
@@ -214,7 +222,10 @@ footer ul a {
 }
 
 /* *********pseudo selectors********* */
-
+#play-has-no-limits-products>*:hover {
+    opacity: 1;
+    border-bottom: 2px solid blue;
+}
 
 /* *********media query selectors********* */
 @media screen and (min-width: 576px) {
