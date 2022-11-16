@@ -8,6 +8,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    font-size: 2.2rem;
+}
+
 .custom-align-center {
     align-items: center;
 }
@@ -51,6 +55,10 @@ h2 {
 
 .custom-h-25px {
     height: 25px;
+}
+
+.custom-w-100px {
+    width: 100px;
 }
 
 .custom-w-125px {
@@ -192,13 +200,14 @@ header li a {
     display: flex;
 }
 
+#it-takes-two-title {
+    width: 60%;
+}
+
+
 /* explore section selectors */
 .explore-ps4 h2 {
     padding-top: 4rem;
-}
-
-.explore-ps4 h3 {
-    font-size: 2.2rem;
 }
 
 .explore-ps4 p {
