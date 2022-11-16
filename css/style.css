@@ -24,6 +24,10 @@ h3 {
     font-size: 0.5rem;
 }
 
+.custom-fs-md {
+    font-size: 1.2rem;
+}
+
 .custom-h-600px {
     height: 600px;
 }
