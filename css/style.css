@@ -16,6 +16,10 @@ h2 {
     justify-self: end;
 }
 
+.custom-fs-xs {
+    font-size: 0.5rem;
+}
+
 .custom-h-600px {
     height: 600px;
 }
@@ -63,6 +67,10 @@ h2 {
 
 .custom-w-225px {
     width: 225px;
+}
+
+.custom-w-550px {
+    width: 550px;
 }
 
 .custom-w-45 {
@@ -124,12 +132,21 @@ header li {
     list-style-type: none;
     display: inline-block;
     margin: 0.5rem;
-    font-size: 0.9rem;
 }
 
 header li a {
     text-decoration: none;
     color: black;
+}
+
+.custom-dropdown {
+    position: static !important;
+}
+
+.custom-dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
 }
 
 #sony-logo {

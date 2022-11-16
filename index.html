@@ -27,13 +27,17 @@
             <div class="col-12 p-0">
                 <nav class="navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="Sony logo"></a>
+                        <a class="navbar-brand" href="#">
+                            <img src="./img/play_logo.svg" alt="Sony logo">
+                        </a>
+
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto">
-                                <li class="nav-item dropdown">
+                            <ul class="navbar-nav w-100 d-flex custom-align-center">
+                                <li class="nav-item dropdown mx-2">
                                     <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Giochi <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -52,27 +56,49 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Hardware <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
-                                    <ul class="dropdown-menu text-center custom-w-80vw">
+                                <li class="nav-item custom-dropdown dropdown mx-2">
+                                    <a class="fw-bold" href="#hardware-list" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        Hardware <i class="fa-solid fa-angle-down custom-text-grey"></i>
+                                    </a>
+                                    <ul class="custom-dropdown-menu dropdown-menu text-center" id="hardware-list">
                                         <li>
-                                            <a class="dropdown-item" href="#">
-                                                <img src="./img/play-menu-ico.png" alt="">
-                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                    <img src="./img/play-menu-ico.png" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="w-100 m-0 p-0">
+                                            <hr class="w-100 m-0 p-0">
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">
-                                                <img src="./img/play-menu-ico.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                                <img src="./img/play-menu-ico.png" alt="">
-                                            </a>
+                                            <ul class="custom-w-550px d-flex">
+                                                <li class="px-3 d-flex custom-align-center">
+                                                    <i class="fa-solid fa-circle custom-text-blue custom-fs-xs pe-2"></i>Link Hardware
+                                                </li>
+                                                <li class="px-3 d-flex custom-align-center">
+                                                    <i class="fa-solid fa-circle custom-text-blue custom-fs-xs pe-2"></i>Link Hardware
+                                                </li>
+                                                <li class="px-3 d-flex custom-align-center">
+                                                    <i class="fa-solid fa-circle custom-text-blue custom-fs-xs pe-2"></i>Link Hardware
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-2">
                                     <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Servizi <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -90,7 +116,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-2">
                                     <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Novità <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -108,7 +134,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-2">
                                     <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Fai acquisti <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -126,7 +152,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-2">
                                     <a class="fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Supporto <i class="fa-solid fa-angle-down custom-text-grey"></i></a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -144,46 +170,47 @@
                                         </li>
                                     </ul>
                                 </li>
+                                <li class="me-auto mx-0"></li>
                                 <li>
-                            </ul>
-                            <ul class="navbar-nav custom-align-center">
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle custom-text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                        My Playstation
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                            Action
-        
-                                        </a>
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown d-flex custom-align-center mx-0">
+                                            <a class="nav-link dropdown-toggle custom-text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                My Playstation
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Action
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                    Another action
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Something else here
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">
-                                            Another action
-        
-                                        </a>
+                                        <li class="nav-item d-flex custom-align-center mx-0">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <button class="custom-bg-black text-white rounded-5 fs-6 py-2 px-3 border-0">
+                                                    Accedi
+                                                </button>
+                                            </a>
                                         </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        <li class="nav-item d-flex custom-align-center mx-0">
+                                            <a class="nav-link" href="#">
+                                                <img class="custom-h-25px" src="./img/lens.svg" alt="magnifing lens">
+                                            </a>
                                         </li>
                                     </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">
-                                        <button class="custom-bg-black custom-w-125px text-white rounded-5 fs-6 py-2 px-2 border-0">
-                                            Accedi
-                                        </button>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <img class="custom-h-25px" src="./img/lens.svg" alt="magnifing lens">
-                                    </a>
                                 </li>
                             </ul>
                         </div>
