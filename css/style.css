@@ -163,7 +163,7 @@ header li a {
     display: flex;
     align-items: end;
     padding-bottom: 3rem;
-    margin-top: 8rem;
+    margin-top: 6.5rem;
 }
 
 #returnal-title {
@@ -184,7 +184,7 @@ header li a {
     display: flex;
 }
 
-/* it-takes-two section selectors */
+/* explore section selectors */
 .explore-ps4 h2 {
     padding-top: 4rem;
 }
@@ -213,6 +213,7 @@ footer ul a {
     font-size: 0.75rem;
 }
 
+/* *********pseudo selectors********* */
 
 
 /* *********media query selectors********* */
